@@ -1,0 +1,98 @@
+body {
+    background-color: #fcead0;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding:0px;
+    cursor: url("arrow.png"), auto;
+
+}
+.container {
+    color: #592D25;
+    width: 530px;
+    margin: auto;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+#heading {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tetris {
+    background-color: #BD4B53;
+    border: 5px solid #A3393E;
+    display: block;
+    margin: 10px auto;
+    border-radius: 25px;
+}
+
+.controls {
+    margin-top:10px;
+    text-align: center;
+}
+.controls button {
+    background-color: #A3393E;
+    color: white;
+    border: 2px solid #592D25;
+    border-radius: 8px;
+    height: 30px; width: 78px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    cursor: url("hand.png") pointer;
+}
+
+.playbuttons {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  gap: 8px;
+  justify-content: center;
+}
+
+
+#left {
+  grid-column: 1;
+}
+
+#down {
+  grid-column: 2;
+}
+
+#right {
+  grid-column: 3;
+}
+
+.playbuttons button {
+    background-color: #A3393E;
+    color: white;
+    border: 2px solid #592D25;
+    border-radius: 8px;
+    height: 40px;
+    width: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    cursor: url("hand.png"), pointer;
+}
+button:active {
+  transform: scale(0.95);
+}
+#score {
+  width: 400px;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #BD4B53;
+  border: 3px solid #A3393E;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 12px;
+}
